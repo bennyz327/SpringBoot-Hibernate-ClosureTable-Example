@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: SpringBootHibernateClosureTableExample
+  datasource:
+    url: jdbc:postgresql://localhost:5432/test
+    username: dev
+    password: dev
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
