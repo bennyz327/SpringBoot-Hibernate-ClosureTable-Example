@@ -38,9 +38,9 @@
 docker run \
 -e POSTGRES_DB=test \
 -e POSTGRES_PASSWORD=dev \
--e POSTGRES_USER=dev -d \
+-e POSTGRES_USER=dev \
 -p 5432:5432 \
-postgres:16.4
+postgres:16.4 -d
 ```
 
 ## API 說明

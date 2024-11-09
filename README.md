@@ -32,12 +32,12 @@ This is a simple implementation of the closure table pattern for Spring Data JPA
 
 ### database setup
 ```shell
-docker run
--e POSTGRES_DB=test 
--e POSTGRES_PASSWORD=dev 
--e POSTGRES_USER=dev -d 
--p 5432:5432
-postgres:16.4
+docker run \
+-e POSTGRES_DB=test \
+-e POSTGRES_PASSWORD=dev \
+-e POSTGRES_USER=dev \
+-p 5432:5432 \
+postgres:16.4 -d
 ```
 
 ## API Description
